@@ -1,3 +1,6 @@
+---
+layout: default-content-only
+---
 # Graham Reed &mdash; Site Reliability Engineer
 
 London &mdash; United Kingdom
