@@ -22,7 +22,7 @@ London &mdash; United Kingdom
 
 -   Define in-company standards for Kubernetes configuration, develop
     prototype implementation. Core Helm chart for running daemon
-    applications in use in creating over 400 unique `Deployment` object
+    applications in use in creating over 400 unique `Deployment` objects
     (and supporting objects such as `Service`).
 
 -   Analyze outages and incidents to recommend actions to improve
