@@ -1,0 +1,93 @@
+body {
+  background: white;
+  color: black;
+  font-family: helvetica, sans-serif;
+}
+A:link { color: blue; background: inherit; }
+A:visited { color: navy; background: inherit; }
+A:hover { background: yellow; color: inherit; }
+A:active { color: red; background: inherit; }
+p { text-indent: 1em;
+    margin: 0.5em 0; }
+h1 {
+  font-size: 1.5em;
+}
+h2 {
+  font-size: 1.25em;
+}
+h3 { font-size: 1.125em; }
+h4,h5,h6 { font-size: 1em; }
+body>div {
+  /* border-top: thin solid black; */
+  margin-top: 0.25em;
+}
+body>h1:first-child,body>h2:first-child,body>div:first-child,body>div>h1:first-child,body>div>h2:first-child {
+  /* border-top: none; */
+  margin-top: 0;
+}
+body>h1, body>div>h1 {
+  border-top: thin solid black;
+  padding-top: 0.25em;
+}
+body>h2, body>div>h2 {
+  border-top: thin dotted black;
+  padding-top: 0.125em;
+}
+
+div.badges img {
+  vertical-align: middle;
+}
+div.badges {
+  text-align: right;
+}
+.aside,.alert,.caution,.sample {
+  text-indent: 0;
+  color: #000;
+  padding: 0.5em 1em;
+}
+.aside>p,.alert>p,.caution>p,.sample>p {
+  text-indent: 0;
+}
+.alert,.caution {
+  border-width: medium;
+  border-style: solid;
+}
+.aside {
+  border-width: thin;
+  border-style: dotted;
+}
+.aside {
+  border-color: #333;
+  background-color: #eee;
+}
+.sample {
+  border-color: #000;
+  background-color: transparent;
+  color: inherit;
+}
+.alert {
+  border-color: #f33;
+  background-color: #fee;
+}
+.caution {
+  border-color: #ff3;
+  background-color: #ffe;
+}
+img.icon.left {
+  float: left;
+  border-right: 0.5em solid white;
+}
+img.icon.right {
+  float: right;
+  border-left: 0.5em solid white;
+}
+body>div,h1,h2.clear {
+  clear: both;
+}
+h1.noclear {
+  clear: none;
+}
+div.badges,div.author {
+  border-top: thin solid black;
+  font-size: 75%;
+}
